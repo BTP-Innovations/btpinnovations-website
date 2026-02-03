@@ -1,0 +1,344 @@
+﻿@model WeeBtpWebsite.Models.ContactUsModel
+@{
+    ViewData["Title"] = "WeeDatastAIsis";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!--Header Start-->
+<header id="pq-header" class="pq-header-default">
+    <div class="pq-top-header">
+        <div class="container">
+            <div class="row flex-row-reverse">
+                <div class="col-md-6 text-right">
+                    <div class="pq-header-social text-right">
+                        <ul>
+                            <li><a href="https://www.facebook.com/weebtp" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/weebtp/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://twitter.com/weebtp" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="pq-header-contact ">
+                        <ul>
+                            <li>
+                                <a href="tel:+8007816632"><i class="fas fa-phone-flip"></i><span>(800)781-6632</span></a>
+                            </li>
+                            <li>
+                                <a href="mailto:contact@btpinnovations.com"><i class="fas fa-envelope"></i><span>contact@btpinnovations.com</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pq-bottom-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="~/Home/Home">
+                            <img class="img-fluid logo" src="~/Content/WebsiteContent/images/We(e)BTPv2.0.png" alt="We(e)" style="height:100px;">
+                        </a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div id="pq-menu-contain" class="pq-menu-contain">
+                                <ul id="pq-main-menu" class="navbar-nav ml-auto">
+                                    <li class="menu-item current-menu-item">
+                                        <a href="~/Home/OurServices">Services</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="~/OurServices/WeeCodeIGNITE" style="text-transform:none;">BTP CodeIGNITE</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/OurServices/WeeSecurity360"style="text-transform:none;">BTP Security360</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/OurServices/WeeCloudSPHERE" style="text-transform:none;">BTP CloudSPHERE</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/OurServices/WeeNextgenFLOW" style="text-transform:none;">BTP NextgenFLOW</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/OurServices/WeeBlockCENTRAL" style="text-transform:none;">BTP BlockCENTRAL</a>
+                                            </li>
+                                            <li class="menu-item current-menu-item">
+                                                <a href="~/OurServices/WeeDatastAIsis" style="text-transform:none;">BTP DatastAIsis</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/OurServices/WeePraaS" style="text-transform:none;">BTP PraaS</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Industries</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="~/Industries/Finance">Finance</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/Industries/Healthcare">Healthcare</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/Industries/Retail">Retail</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/Industries/Education">Education</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/Industries/RealEstate">Real Estate</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/Industries/Travel">Travel</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/Industries/Other">Others</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="~/Home/Blog">Blog</a>@*<i class="fa fa-chevron-down pq-submenu-icon"></i>*@
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="~/Home/ContactUs">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pq-menu-search-block">
+                            @*<a href="javascript:void(0)" id="pq-seacrh-btn"><i class="fa fa-search"></i></a>
+                            <div class="pq-search-form">
+
+                            <form role="search" method="get" class="search-form"
+                            action="https://techtrix.peacefulqode.com/">
+                            <label>
+                            <span class="screen-reader-text">Search for:</span>
+                            <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                            </label>
+                            <button type="submit" class="search-submit">
+                            <span class="screen-reader-text">Search</span>
+                            </button>
+                            </form>
+                            </div>*@
+                        </div>
+                        <a href="~/Home/FreeQuote" class="pq-button">
+                            <div class="pq-button-block">
+
+                                <span class="pq-button-text">Free Quote</span>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--Header End-->
+<!--Breadcrumb Start-->
+<div class="pq-breadcrumb pq-bg-dark pq-bg-img-2">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <nav aria-label="breadcrumb">
+                    <div class="pq-breadcrumb-title">
+                        <h1>
+                            <img src="~/Content/WebsiteContent/images/services/dataaisis/wee-datastaisis-transp-service-type_processed.png" />
+                        </h1>
+                    </div>
+                    <div class="pq-breadcrumb-container">
+                        <ol class="breadcrumb align-items-center">
+                            <li class="breadcrumb-item">
+                                <a href="~/Home/OurServices"><i class="fa fa-home me-2"></i>Our Services</a>
+                            </li>
+                            <li class="breadcrumb-item active">BTP DatastAIsis</li>
+                        </ol>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Breadcrumb End-->
+<!--Software Start-->
+<section class="all-services">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4">
+                <div class="pq-widget">
+                    <div class="pq-widget pq-widget-port p-0">
+                        <div class="menu-service-menu-container">
+                            <ul id="menu-service-menu" class="menu">
+                                <li @*class="current-menu-item"*@>
+                                    <a href="~/OurServices/WeeCodeIGNITE" aria-current="page" style="text-transform:none;">BTP CodeIGNITE</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/OurServices/WeeSecurity360" aria-current="page" style="text-transform:none;">BTP Security360</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/OurServices/WeeCloudSPHERE" aria-current="page" style="text-transform:none;">BTP CloudSPHERE</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/OurServices/WeeNextgenFLOW" aria-current="page" style="text-transform:none;">BTP NextgenFLOW</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/OurServices/WeeBlockCENTRAL" aria-current="page" style="text-transform:none;">BTP BlockCENTRAL</a>
+                                </li>
+                                <li class="current-menu-item">
+                                    <a href="~/OurServices/WeeDatastAIsis" aria-current="page" style="text-transform:none;">BTP DatastAIsis</a>
+                                </li>
+                                <li>
+                                    <a href="~/OurServices/WeePraaS" aria-current="page" style="text-transform:none;">BTP PraaS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="media-image">
+                    <div class="pq-form-section pq-style-1" style="position:absolute;padding-left:10px;padding-top:10px;">
+                        <span class="pq-form-title" style="font-size: 22px; line-height: 10px; font-weight: 900 ">Have an Idea?</span><br />
+                        <span class="pq-form-title" style="font-size: 22px; line-height: 10px; font-weight: 900">We can help</span>
+                    </div>
+                    <a href="#"><img src="~/Content/WebsiteContent/images/callcenter.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-8 mt-4 mt-lg-0" @*style="padding-right: 149px;"*@>
+                <img src="~/Content/WebsiteContent/images/services/dataaisis/datastaisis-ai-image.jpg" alt="">
+                <h2 class="pq-heading mt-4">Transformative AI and Automation</h2>
+                <p class="pq-description">
+                    If you're looking for a reliable, experienced team of
+                    developers to build your next application, 
+                    contact us today to learn more about our services and how we can help your business succeed.
+                </p>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="pq-fancy-box pq-fancybox-1">
+                            <div class="pq-fancy-media">
+                                <img src="~/Content/WebsiteContent/images/services/dataaisis/ai-insights-icon.png" style="height:65px;" />
+                            </div>
+                            <div class="pq-fancybox-info">
+                                <h5 class="pq-fancy-box-title">AI-Driven Insights</h5>
+                                <p>
+                                    Uncover valuable data insights with AI. 
+                                    Uses machine learning to analyze trends, 
+                                    providing actionable intelligence to inform your strategy.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="pq-fancy-box pq-fancybox-1 pq-mt-30 mb-4">
+                            <div class="pq-fancy-media">
+                                <img src="~/Content/WebsiteContent/images/services/dataaisis/tailored-solution-icon.png" style="height:65px;" />
+                            </div>
+                            <div class="pq-fancybox-info">
+                                <h5 class="pq-fancy-box-title">
+                                    Custom Solutions
+                                </h5>
+                                <p>
+                                    Offers tailored AI and automation solutions. Our experts work closely with you to design and
+                                    implement systems that drive growth and efficiency.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 mt-4 mt-md-0">
+                        <div class="pq-fancy-box pq-fancybox-1 pq-ml-30">
+                            <div class="pq-fancy-media">
+                                <img src="~/Content/WebsiteContent/images/services/dataaisis/intelligent-automation-icon.png" style="height:65px;" />
+                            </div>
+                            <div class="pq-fancybox-info">
+                                <h5 class="pq-fancy-box-title">Intelligent Automation</h5>
+                                <p>
+                                    Automate tasks and workflows with We(e)
+                                    DatastAIsis, increasing productivity and reducing errors to allow your team to focus on high-value activities.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="pq-fancy-box pq-fancybox-1 pq-ml-30 mb-4">
+                            <div class="pq-fancy-media">
+                                <img src="~/Content/WebsiteContent/images/services/dataaisis/enhance-icon.png" style="height:65px;" />
+                            </div>
+                            <div class="pq-fancybox-info">
+                                <h5 class="pq-fancy-box-title">Enhanced Efficiency</h5>
+                                <p>
+                                    Streamline operations. 
+                                    Our AI and automation services optimize your processes, 
+                                    saving time and resources while boosting performance.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt-4 border-0">
+                    <div class="col-lg-6">
+                        <img src="~/Content/WebsiteContent/images/services/dataaisis/ai-industry-expertise-image.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="pq-about-title mt-4 mt-lg-0">
+                            <a href="#">
+                                Industry Expertise
+                            </a>
+                        </h2>
+                        <p class="pq-description mb-0">
+                            BTP DatastAIsis delivers innovative AI and automation solutions with a team at the
+                            forefront of technological advancements, ensuring you stay ahead of the competition.
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mt-4 mt-lg-0">
+                <div class="inquiry-form pq-bg-grey">
+                    <div class="pq-form-section pq-style-1 ">
+                        <span class="pq-form-title" style="font-size:20px;">Call Us Now</span><br />
+                        <span class="pq-form-title" style="font-size: 20px; font-weight: 700">(800) 781-6632</span>
+                        <h5 class="pq-form-title" style="font-size:24px;line-height:28px;">Request A Free Consultation</h5>
+                    </div>
+                    @using (Html.BeginForm("WeeDatastAIsis", "OurServices", FormMethod.Post, new { @class = "pq-applyform" }))
+                    {
+                        <div class="row">
+                            <div class="col-md-12">
+                                @*<input type="text" id="first-name" class="pq-bg-white name-field" placeholder="Your Name" required>*@
+                                @Html.TextBoxFor(m => m.firstName, new { placeholder = "Your Name", @class = "pq-bg-white name-field", required = "required" })
+                            </div>
+                            <div class="col-md-12">
+                                @*<input type="text" id="e-mail" class="pq-bg-white e-mail-field" placeholder="Email" required>*@
+                                @Html.TextBoxFor(m => m.email, new { placeholder = "Email", @class = "pq-bg-white e-mail-field", required = "required" })
+                            </div>
+                            <div class="col-md-12">
+                                @*<input type="text" id="phone-number" class="pq-bg-white phone-number-field" placeholder="Cell Phone" required>*@
+                                @Html.TextBoxFor(m => m.phoneNumber, new { placeholder = "Phone", @class = "pq-bg-white phone-number-field", required = "required" })
+                            </div>
+                            <div class="col-md-12">
+                                @*<input type="text" id="subject" class="pq-bg-white subject-field" placeholder="Subject" required>*@
+                                @Html.TextBoxFor(m => m.Subject, new { placeholder = "Subject", @class = "pq-bg-white subject-field", required = "required" })
+                            </div>
+                            <div class="col-md-12">
+                                @*<textarea name="your-message" id="message" class="pq-bg-white" cols="10" rows="4" placeholder="Your Message" required></textarea>*@
+                                @Html.TextAreaFor(m => m.Message, new { rows = "5", cols = "10", placeholder = "Your Message", @class = "pq-bg-white name-field", required = "required" })
+                            </div>
+                            <div class="col-md-12">
+                                <div class="pq-button-block">
+                                    <input class="pq-button-text" id="emailForm" type="submit" value="Send Message" />
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Software End-->
