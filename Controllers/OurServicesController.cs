@@ -16,12 +16,12 @@ namespace WeeBtpWebsite.Controllers
         {
             return View();
         }
-        public ActionResult WeeCodeIGNITE()
+        public ActionResult BTPCodeIGNITE()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult WeeCodeIGNITE(ContactUsModel model)
+        public ActionResult BTPCodeIGNITE(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
@@ -31,12 +31,12 @@ namespace WeeBtpWebsite.Controllers
             _mailService.SendEmail(Name, Email, Subject, PhoneNumber, Message);
             return View("ThanksPage");
         }
-        public ActionResult WeeSecurity360()
+        public ActionResult BTPSecuriSCOPE()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult WeeSecurity360(ContactUsModel model)
+        public ActionResult BTPSecuriSCOPE(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
@@ -46,12 +46,12 @@ namespace WeeBtpWebsite.Controllers
             _mailService.SendEmail(Name, Email, Subject, PhoneNumber, Message);
             return View("ThanksPage");
         }
-        public ActionResult WeeCloudSPHERE()
+        public ActionResult BTPCloudEXCELON()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult WeeCloudSPHERE(ContactUsModel model)
+        public ActionResult BTPCloudEXCELON(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
@@ -61,12 +61,12 @@ namespace WeeBtpWebsite.Controllers
             _mailService.SendEmail(Name, Email, Subject, PhoneNumber, Message);
             return View("ThanksPage");
         }
-        public ActionResult WeeNextgenFLOW()
+        public ActionResult BTPConnect()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult WeeNextgenFLOW(ContactUsModel model)
+        public ActionResult BTPConnect(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
@@ -76,12 +76,12 @@ namespace WeeBtpWebsite.Controllers
             _mailService.SendEmail(Name, Email, Subject, PhoneNumber, Message);
             return View("ThanksPage");
         }
-        public ActionResult WeeBlockCENTRAL()
+        public ActionResult BTPManageSP()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult WeeBlockCENTRAL(ContactUsModel model)
+        public ActionResult BTPManageSP(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
@@ -91,12 +91,12 @@ namespace WeeBtpWebsite.Controllers
             _mailService.SendEmail(Name, Email, Subject, PhoneNumber, Message);
             return View("ThanksPage");
         }
-        public ActionResult WeeDatastAIsis()
+        public ActionResult BTPDatastAIsis()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult WeeDatastAIsis(ContactUsModel model)
+        public ActionResult BTPDatastAIsis(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
@@ -106,12 +106,12 @@ namespace WeeBtpWebsite.Controllers
             _mailService.SendEmail(Name, Email, Subject, PhoneNumber, Message);
             return View("ThanksPage");
         }
-        public ActionResult WeePraaS()
+        public ActionResult BTPTechAdvisors()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult WeePraaS(ContactUsModel model)
+        public ActionResult BTPTechAdvisors(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
