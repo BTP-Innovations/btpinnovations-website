@@ -1,6 +1,6 @@
 ﻿@model WeeBtpWebsite.Models.ContactUsModel
 @{
-    ViewData["Title"] = "BTPCloudEXCELON";
+    ViewData["Title"] = "BTPManageSP";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <!--Header Start-->
@@ -44,28 +44,28 @@
                             <div id="pq-menu-contain" class="pq-menu-contain">
                                 <ul id="pq-main-menu" class="navbar-nav ml-auto">
                                     <li class="menu-item current-menu-item">
-                                        <a href="~/Home/OurServices">Solution Brands</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
+                                        <a href="~/Home/SolutionBrands">Solution Brands</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
                                         <ul class="sub-menu">
                                             <li class="menu-item">
-                                                <a href="~/OurServices/BTPCodeIGNITE" style="text-transform:none;">BTP CodeIGNITE</a>
+                                                <a href="~/SolutionBrands/BTPCodeIGNITE" style="text-transform:none;">BTP CodeIGNITE</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="~/OurServices/BTPSecuriSCOPE"style="text-transform:none;">BTP Security360</a>
+                                                <a href="~/SolutionBrands/BTPSecuriSCOPE" style="text-transform:none;">BTP Security360</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/SolutionBrands/BTPCloudEXCELON" style="text-transform:none;">BTP CloudSPHERE</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="~/SolutionBrands/BTPConnect" style="text-transform:none;">BTP NextgenFLOW</a>
                                             </li>
                                             <li class="menu-item current-menu-item">
-                                                <a href="~/OurServices/BTPCloudEXCELON" style="text-transform:none;">BTP CloudSPHERE</a>
+                                                <a href="~/SolutionBrands/BTPManageSP" style="text-transform:none;">BTP BlockCENTRAL</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="~/OurServices/BTPConnect" style="text-transform:none;">BTP NextgenFLOW</a>
+                                                <a href="~/SolutionBrands/BTPDatastAIsis" style="text-transform:none;">BTP DatastAIsis</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="~/OurServices/BTPManageSP" style="text-transform:none;">BTP BlockCENTRAL</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="~/OurServices/BTPDatastAIsis" style="text-transform:none;">BTP DatastAIsis</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="~/OurServices/BTPTechAdvisors" style="text-transform:none;">BTP PraaS</a>
+                                                <a href="~/SolutionBrands/BTPTechAdvisors" style="text-transform:none;">BTP PraaS</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -96,7 +96,7 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="~/Home/Blog">Blog</a>@* <i class="fa fa-chevron-down pq-submenu-icon"></i> *@
+                                        <a href="~/Home/Blog">Blog</a>@*<i class="fa fa-chevron-down pq-submenu-icon"></i>*@
                                     </li>
                                     <li class="menu-item">
                                         <a href="~/Home/ContactUs">Contact Us</a>
@@ -146,15 +146,15 @@
                 <nav aria-label="breadcrumb">
                     <div class="pq-breadcrumb-title">
                         <h1>
-                            <img src="~/Content/WebsiteContent/images/services/cloudsphere/CloudEXCELON.png" />
+                            <img src="~/Content/WebsiteContent/images/services/blockcentral/ManageSP.png" />
                         </h1>
                     </div>
                     <div class="pq-breadcrumb-container">
                         <ol class="breadcrumb align-items-center">
                             <li class="breadcrumb-item">
-                                <a href="~/Home/OurServices"><i class="fa fa-home me-2"></i>Solution Brands</a>
+                                <a href="~/Home/SolutionBrands"><i class="fa fa-home me-2"></i>Solution Brands</a>
                             </li>
-                            <li class="breadcrumb-item active">BTP CloudEXCELON</li>
+                            <li class="breadcrumb-item active">BTP ManageSP</li>
                         </ol>
                     </div>
                 </nav>
@@ -173,29 +173,29 @@
                         <div class="menu-service-menu-container">
                             <ul id="menu-service-menu" class="menu">
                                 <li @*class="current-menu-item"*@>
-                                    <a href="~/OurServices/BTPCodeIGNITE" aria-current="page" style="text-transform:none;">BTP CodeIGNITE</a>
+                                    <a href="~/SolutionBrands/BTPCodeIGNITE" aria-current="page" style="text-transform:none;">BTP CodeIGNITE</a>
                                 </li>
 
                                 <li>
-                                    <a href="~/OurServices/BTPSecuriSCOPE" aria-current="page" style="text-transform:none;">BTP SecuriSCOPE</a>
+                                    <a href="~/SolutionBrands/BTPSecuriSCOPE" aria-current="page" style="text-transform:none;">BTP SecuriSCOPE</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/SolutionBrands/BTPCloudEXCELON" aria-current="page" style="text-transform:none;">BTP CloudEXCELON</a>
+                                </li>
+
+                                <li>
+                                    <a href="~/SolutionBrands/BTPConnect" aria-current="page" style="text-transform:none;">BTP Connect</a>
                                 </li>
 
                                 <li class="current-menu-item">
-                                    <a href="~/OurServices/BTPCloudEXCELON" aria-current="page" style="text-transform:none;">BTP CloudEXCELON</a>
-                                </li>
-
-                                <li>
-                                    <a href="~/OurServices/BTPConnect" aria-current="page" style="text-transform:none;">BTP Connect</a>
-                                </li>
-
-                                <li>
-                                    <a href="~/OurServices/BTPManageSP" aria-current="page" style="text-transform:none;">BTP ManageSP</a>
+                                    <a href="~/SolutionBrands/BTPManageSP" aria-current="page" style="text-transform:none;">BTP ManageSP</a>
                                 </li>
                                 <li>
-                                    <a href="~/OurServices/BTPDatastAIsis" aria-current="page" style="text-transform:none;">BTP DatastAIsis</a>
+                                    <a href="~/SolutionBrands/BTPDatastAIsis" aria-current="page" style="text-transform:none;">BTP DatastAIsis</a>
                                 </li>
                                 <li>
-                                    <a href="~/OurServices/BTPTechAdvisors" aria-current="page" style="text-transform:none;">BTP TechAdvisors</a>
+                                    <a href="~/SolutionBrands/BTPTechAdvisors" aria-current="page" style="text-transform:none;">BTP TechAdvisors</a>
                                 </li>
                             </ul>
                         </div>
@@ -210,77 +210,68 @@
                 </div>
             </div>
             <div class="col-xl-8 col-lg-8 mt-4 mt-lg-0" @*style="padding-right: 149px;"*@>
-                <img src="~/Content/WebsiteContent/images/services/cloudsphere/cloudcomputing.jpg" alt="">
+                <img src="~/Content/WebsiteContent/images/services/blockcentral/managesp_main.png" alt="">
                 <h2 class="pq-heading mt-4">
-                    Navigate The World Of Cloud
-                    Computing
+                    Managed IT Operations & Support
                 </h2>
                 <p class="pq-description">
-                    Whether you're looking to migrate your entire IT infrastructure to the cloud, or simply
-                    need help with a specific project or application, we're here to help.
+                     BTP ManageSP delivers proactive monitoring, system management, and operational 
+                     support to keep your technology environment running smoothly. Our team helps 
+                     reduce downtime, improve reliability, and scale IT operations with confidence
                 </p>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="pq-fancy-box pq-fancybox-1" style="height:180px;">
-                            <div class="pq-fancy-media">
-                                <img src="~/Content/WebsiteContent/images/services/cloudsphere/cloudStrategy.png" />
+                        <div class="pq-fancy-box pq-fancybox-1">
+                            <div class="pq-fancy-media" style="width: 164px;height: 100px;margin: -63px;margin-top: -14px; margin-right: -32px; mix-blend-mode: multiply;" >
+                                <img src="~/Content/WebsiteContent/images/services/blockcentral/managesp_mon_icon.png" />
                             </div>
                             <div class="pq-fancybox-info">
-                                <h5 class="pq-fancy-box-title">
-                                    Cloud Strategy
-                                </h5>
+                                <h5 class="pq-fancy-box-title">24/7 Monitoring</h5>
                                 <p>
-                                    Develop a cloud strategy that
-                                    aligns with your business
-                                    objectives, and ensures seamless
-                                    integration with your existing
-                                    infrastructure.
+                                     Continuous monitoring of infrastructure, networks, and systems to detect 
+                                     issues early, prevent outages, and maintain operational stability across 
+                                     your IT environment.
                                 </p>
 
                             </div>
                         </div>
                         <div class="pq-fancy-box pq-fancybox-1 pq-mt-30 mb-4">
-                            <div class="pq-fancy-media">
-                                <img src="~/Content/WebsiteContent/images/services/cloudsphere/optimization.png" />
+                            <div class="pq-fancy-media" style="width: 164px;height: 100px;margin: -63px;margin-top: -14px; margin-right: -32px;" >
+                                <img src="~/Content/WebsiteContent/images/services/blockcentral/managesp_sd_icon.png" />
                             </div>
                             <div class="pq-fancybox-info">
-                                <h5 class="pq-fancy-box-title">Cloud Optimization</h5>
+                                <h5 class="pq-fancy-box-title">Service Desk Support</h5>
                                 <p>
-                                    Optimize your cloud environment
-                                    to ensure maximum efficiency, performance, and cost- effectiveness.
+                                     Responsive help desk and technical support services to assist 
+                                     your team with IT issues, system access, and day-to-day operational needs.
                                 </p>
 
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mt-4 mt-md-0">
-                        <div class="pq-fancy-box pq-fancybox-1 pq-ml-30" style="height:180px;">
-                            <div class="pq-fancy-media">
-                                <img src="~/Content/WebsiteContent/images/services/cloudsphere/migration.png" />
+                        <div class="pq-fancy-box pq-fancybox-1 pq-ml-30">
+                            <div class="pq-fancy-media" style="width: 164px;height: 100px;margin: -63px;margin-top: -14px; margin-right: -32px;" >
+                                <img src="~/Content/WebsiteContent/images/services/blockcentral/managesp_infra_icon.png" />
                             </div>
                             <div class="pq-fancybox-info">
-                                <h5 class="pq-fancy-box-title">
-                                    Cloud Migration
-                                </h5>
+                                <h5 class="pq-fancy-box-title">Managed Infrastructure</h5>
                                 <p>
-                                    Assist you in moving your
-                                    applications, data, and
-                                    infrastructure to the cloud, and
-                                    ensuring a smooth transition.
+                                     Proactive management of servers, cloud platforms, and core infrastructure 
+                                     to ensure performance, reliability, and secure operations across hybrid environments.
                                 </p>
+
                             </div>
                         </div>
                         <div class="pq-fancy-box pq-fancybox-1 pq-mt-30 pq-ml-30 mb-4">
-                            <div class="pq-fancy-media">
-                                <img src="~/Content/WebsiteContent/images/services/cloudsphere/security.png" />
+                            <div class="pq-fancy-media" style="width: 164px;height: 100px;margin: -63px;margin-top: -14px; margin-right: -32px;" >
+                                <img src="~/Content/WebsiteContent/images/services/blockcentral/managesp_at-icon.png" />
                             </div>
                             <div class="pq-fancybox-info">
-                                <h5 class="pq-fancy-box-title">Cloud Security</h5>
+                                <h5 class="pq-fancy-box-title">Automation & Optimization</h5>
                                 <p>
-                                    Top-of-the-line security solutions to
-                                    protect your sensitive data and
-                                    ensure compliance with regulatory
-                                    requirements.
+                                     Automation tools and operational improvements designed to streamline IT processes, 
+                                     reduce manual workload, and improve service delivery.
                                 </p>
 
                             </div>
@@ -288,25 +279,20 @@
                     </div>
 
                 </div>
-                <div class="row mt-4 border-0">
+                <div class="row mt-4 align-items-center border-0">
                     <div class="col-lg-6">
-                        <img src="~/Content/WebsiteContent/images/services/cloudsphere/cloudcomputing2.jpg" alt="">
+                        <img src="~/Content/WebsiteContent/images/services/blockcentral/managesp_itpro.png" alt="">
                     </div>
                     <div class="col-lg-6">
                         <h2 class="pq-about-title mt-4 mt-lg-0">
                             <a href="#">
-                                Experience With Leading
-                                Cloud Providers
+                                Reliable IT Operations Partner
                             </a>
                         </h2>
                         <p class="pq-description mb-0">
-                            With extensive experience with leading
-                            cloud providers We(e) keep ourselves
-                            up-to-date with the latest industry trends
-                            and best practices to deliver cutting- edge solutions that meet the evolving
-                            needs of your business.
+                             BTP ManageSP acts as an extension of your internal IT team, providing the operational 
+                             expertise, monitoring, and support needed to maintain secure and reliable technology environments.
                         </p>
-
                     </div>
                 </div>
             </div>
@@ -317,7 +303,7 @@
                         <span class="pq-form-title" style="font-size: 20px; font-weight: 700">(800) 781-6632</span>
                         <h5 class="pq-form-title" style="font-size:24px;line-height:28px;">Request A Free Consultation</h5>
                     </div>
-                    @using (Html.BeginForm("BTPCloudEXCELON", "OurServices", FormMethod.Post, new { @class = "pq-applyform" }))
+                    @using (Html.BeginForm("BTPManageSP", "SolutionBrands", FormMethod.Post, new { @class = "pq-applyform" }))
                     {
                         <div class="row">
                             <div class="col-md-12">

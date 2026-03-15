@@ -5,10 +5,10 @@ using WeeBtpWebsite.Services;
 
 namespace WeeBtpWebsite.Controllers
 {
-    public class OurServicesController : Controller
+    public class SolutionBrandsController : Controller
     {
         private BrevoMailService _mailService;
-        public OurServicesController()
+        public SolutionBrandsController()
         {
             _mailService = new BrevoMailService();
         }
