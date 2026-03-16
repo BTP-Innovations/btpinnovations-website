@@ -26,12 +26,12 @@ namespace WeeBtpWebsite.Controllers
         {
             return View();
         }
-        public ActionResult OurServices()
+        public ActionResult SolutionBrands()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult OurServices(ContactUsModel model)
+        public ActionResult SolutionBrands(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
