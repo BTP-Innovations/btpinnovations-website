@@ -57,13 +57,13 @@ namespace WeeBtpWebsite.Controllers
             _mailService.SendEmail(Name, Email, Subject, PhoneNumber, Message);
             return View("ThanksPage");
         }
-        public ActionResult FreeQuote()
+        public ActionResult FreeAdvisory()
         {
 
             return View();
         }
         [HttpPost]
-        public ActionResult FreeQuote(ContactUsModel model)
+        public ActionResult FreeAdvisory(ContactUsModel model)
         {
             string Name = model.firstName;
             string Email = model.email;
